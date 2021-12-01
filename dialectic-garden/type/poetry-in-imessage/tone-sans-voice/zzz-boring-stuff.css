@@ -1,0 +1,182 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  /* display: inline; */
+  text-align: center;
+  /* text-align-last: left; */
+  font-weight: 200;
+}
+
+body {
+  background-image: url("/Users/joannesuk/Documents/SFPC/Digital Love Languages/jo's-poem/dialectic-garden/type/poetry-in-imessage/sensory-snacks/boring-files-dont-look/IMG_5606.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.content {
+  margin:50px;
+  color: white;
+}
+
+.hero {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap:wrap; */
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: 'Cormorant', serif;
+  font-size: 3em;
+  position: absolute;
+  bottom: 50px;
+}
+
+a:hover, a:active {
+  color: RGB(255,42,95);
+}
+
+.ascii {
+  font-family: monospace;
+  font-size: 2em;
+  white-space: pre;
+}
+
+.gradient {
+  background: radial-gradient(circle, rgba(199,255,42,0.406568205758427) 0%, rgba(94,166,250,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  margin: 0;
+}
+
+.imessage {
+  font-family: Helvetica Neue;
+  font-weight: normal;
+  display: flex ;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 2em;
+}
+
+.chat {
+  width: 500px;
+  /* border: solid 1px #EEE; */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.messages {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.yours {
+  align-items: flex-start;
+  color: black;
+}
+
+.yours .message {
+  margin-right: 25%;
+  background-color: #EEE;
+  position: relative;
+}
+
+/* .yours .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: #EEE;
+  border-bottom-right-radius: 15px;
+}
+.yours .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+} */
+
+.mine {
+  align-items: flex-end;
+}
+
+.mine .message {
+  color: white;
+  margin-left: 25%;
+  background: #0B93F6;
+  position: relative;
+}
+
+/* .mine .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  background: #0B93F6;
+  border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-left-radius: 10px;
+} */
+
+.typing {
+  background: #E6E7ED;
+  color: #9E9EA1;
+}
+
+.read {
+  /* color: #9E9EA1; */
+  color: white;
+  position: relative;
+  left: 370px;
+  font-size: 0.75em;
+}
